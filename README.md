@@ -3,6 +3,8 @@ Custom tomcat valve to detect stuck threads based on org.apache.catalina.valves.
 Changes made: splunk friendly logging, configurable threshold value per jvm 
 
 This is just a class file. 
+
+
 TODO: 1. Build as a new jar with dependencies: 
 ```
 <dependencies>
