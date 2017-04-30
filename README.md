@@ -36,4 +36,4 @@ TODO: 1. Build as a new jar with dependencies:
 </dependencies>    
 ```
 2. Deploy jar in tomcat/lib
-
+3. Pass -Dstuck_thread_threshold_in_sec=20 as jvm arg for it to use 20 sec instead of default 600, if it needs to be customzied.
